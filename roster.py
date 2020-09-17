@@ -1,11 +1,3 @@
-# TODO
-# Your program should accept the name of a house as a command-line argument.
-#     If the incorrect number of command-line arguments are provided, your program should print an error and exit.
-# Your program should query the students table in the students.db database for all of the students in the specified house.
-# Your program should then print out each student’s full name and birth year (formatted as, e.g., Harry James Potter, born 1980 or Luna Lovegood, born 1981).
-#     Each student should be printed on their own line.
-#     Students should be ordered by last name. For students with the same last name, they should be ordered by first name.
-
 from sys import argv, exit
 from cs50 import SQL
 
